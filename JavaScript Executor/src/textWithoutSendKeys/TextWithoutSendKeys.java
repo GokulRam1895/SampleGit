@@ -21,6 +21,8 @@ public class TextWithoutSendKeys {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0],value='gokul'", userName);
 		
+		System.out.println("text passed successfully");
+		
 		
 		
 		
